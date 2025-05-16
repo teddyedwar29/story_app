@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <!-- Mengatur karakter encoding dan tampilan yang responsif -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <meta
+      name="description"
+      content="APP Story"
+    />
+
+    <!-- Menentukan warna tema untuk browser -->
+    <meta name="theme-color" content="#22c55e" />
+
+    <!-- Mendukung transisi tampilan pada halaman -->
+    <meta name="view-transition" content="same-origin" />
+ 
+    <!-- Preconnect ke server font dan memastikan akses cepat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Memuat font Poppins dari Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Menambahkan favicon untuk tab browser -->
+    <link rel="shortcut icon" href="favicon.png" />
+
+    <!-- Menentukan judul halaman -->
+    <title>APP Story</title>
+
+    <!-- Memuat Font Awesome untuk ikon -->
+    <script
+      src="https://kit.fontawesome.com/c47a0b9424.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Bagian header dengan menu dan logo -->
+    <header>
+      <div class="main-header container">
+        <!-- Nama merek yang mengarah ke halaman utama -->
+        <a class="brand-name" href="#/">APP Story</a>
+
+        <!-- Navigasi samping (side drawer) yang akan diisi dinamically -->
+        <nav id="navigation-drawer" class="navigation-drawer">
+          <div id="nav-list" role="navigation"></div>
+        </nav>
+
+        <!-- Tombol untuk membuka atau menutup menu navigasi -->
+        <button
+          id="drawer-button"
+          class="drawer-button"
+          aria-label="Toggle navigation menu"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <!-- Konten utama halaman yang dinamis -->
+    <main id="main-content" class="main-content"></main>
+
+
+
+</html>
