@@ -46,7 +46,7 @@ class RegisterPage {
           </div>
 
           <button type="submit" class="submit-button">
-            <i class="fas fa-user-plus"></i> Daftar Akun
+            Daftar Akun
           </button>
 
           <p class="auth__link">

@@ -15,13 +15,13 @@ export default class HomePage {
 
           <!-- Call-to-action (CTA) untuk navigasi lebih lanjut -->
           <div class="cta-container">
-            <!-- Tombol untuk mengakses daftar cerita yang tersedia -->
-            <a href="#/stories" class="cta-button">
-              <i class="fas fa-book"></i> Jelajahi Cerita
-            </a>
             <!-- Tombol untuk menambahkan cerita baru -->
             <a href="#/stories/add" class="cta-button cta-button--primary">
-              <i class="fas fa-plus"></i> Buat Cerita Baru
+                Buat Cerita Baru
+            </a>
+            <!-- Tombol untuk mengakses daftar cerita yang tersedia -->
+            <a href="#/stories" class="cta-button">
+                Jelajahi Cerita
             </a>
           </div>
         </div>
