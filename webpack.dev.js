@@ -18,6 +18,8 @@ module.exports = merge(common, {
   devServer: {
     static: path.resolve(__dirname, 'dist'),
     port: 9000,
+    open: true,
+    historyApiFallback: true, // hanya kalau lo pakai SPA router tanpa hash
     client: {
       overlay: {
         errors: true,
